@@ -6,7 +6,7 @@
 # Website name
 title: Hugo Academic CV Theme
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://grokcv.ai/'
 
 ############################
 ## LANGUAGE
@@ -55,3 +55,7 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-shortcodes
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-core
